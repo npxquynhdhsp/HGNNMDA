@@ -227,10 +227,10 @@ def main():
             print('Reli CO KNN')
             print('Model 1')
             X_train1, X_test1 = KNN(X_train1, X_test1, y_train)
-            y_prob1 = models_eval(method_set[0] + '_ReliCB_tr_KNN', X_train1, X_test1, y_train, y_test, ix, loop_i, 1)
+            y_prob1 = models_eval(method_set[0], X_train1, X_test1, y_train, y_test, ix, loop_i, 1)
             print('Model 2')
             X_train2, X_test2 = KNN(X_train2, X_test2, y_train)
-            y_prob2 = models_eval(method_set[0] + '_ReliCB_tr_KNN', X_train2, X_test2, y_train, y_test, ix, loop_i, 2)
+            y_prob2 = models_eval(method_set[0], X_train2, X_test2, y_train, y_test, ix, loop_i, 2)
 
             ##--------------
             # code nay da cap nhat
