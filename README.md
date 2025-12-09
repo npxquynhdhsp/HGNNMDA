@@ -1,4 +1,4 @@
-# HGNN-MDA
+# HGNNMDA
 HGNNMDA: Hybrid Graph Neural Networks for MiRNA-Disease Association Prediction
 
 ## Requirements
@@ -24,5 +24,5 @@ HGNNMDA: Hybrid Graph Neural Networks for MiRNA-Disease Association Prediction
      - nloop = ```number of repeat times```.
      - Defaut: 5fold-CV in HMDD v2.0 dataset.
   * Run ```main.py```.
-  * Updated version: please contact to npxquynhdhsp@edu.cn
+  * Updated version: please contact to npxquynhdhsp@csu.edu.cn
   
